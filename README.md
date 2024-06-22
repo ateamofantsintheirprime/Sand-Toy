@@ -1,10 +1,6 @@
 # Sand-Toy
 Simple falling sand simulator written in python, using pygame &amp; numpy. Optimised to the best of my abilities using the python profiler and pyutils' line profiler
 
-## How to use
+To use the toy open terminal and enter `python3 sand_game.py`. left click to draw sand, hold space and left click to draw a wall, and hold shift and left click to remove a wall.
 
-To run the toy, open shell and enter `python3 sand_game.py`
-
-To benchmark the simulator using the python profiler, run `python3 simulator_benchmark.py`
-
-To benchmark the simulator using the line-profiler, first 
+To benchmark the toy open terminal and enter `python3 simulator_benchmark.py`
