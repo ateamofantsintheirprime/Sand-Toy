@@ -1,0 +1,30 @@
+
+
+resolution: [200, 200]
+max_depth:30
+         88700573 function calls (77655825 primitive calls) in 80.499 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+14166140/4550900   36.244    0.000   61.689    0.000 screen_partition.py:120(prompt)
+ 32986201   17.782    0.000   17.782    0.000 screen_partition.py:88(within_bounds)
+2204670/910180    7.939    0.000   73.323    0.000 screen_partition.py:142(recursive_edit)
+ 19913287    5.803    0.000    5.803    0.000 screen_partition.py:114(is_leaf)
+ 15395468    5.450    0.000    5.450    0.000 {built-in method builtins.any}
+   583628    4.158    0.000   78.587    0.000 screen_partition.py:220(simulate_grain)
+    56286    1.099    0.000   80.135    0.001 screen_partition.py:72(base_simulation)
+   455090    0.641    0.000   73.964    0.000 screen_partition.py:199(move_sand)
+   915398    0.535    0.000    0.535    0.000 screen_partition.py:117(partitionable)
+  1749885    0.312    0.000    0.312    0.000 {built-in method builtins.len}
+135118/100    0.281    0.000   80.498    0.805 screen_partition.py:179(recursive_simulation)
+    56286    0.198    0.000    0.198    0.000 screen_partition.py:73(<listcomp>)
+     5218    0.025    0.000    0.041    0.000 screen_partition.py:38(partition)
+    10436    0.014    0.000    0.014    0.000 screen_partition.py:13(__init__)
+    56286    0.011    0.000    0.011    0.000 {method 'reverse' of 'list' objects}
+     5947    0.004    0.000    0.004    0.000 screen_partition.py:34(unpartition)
+     5218    0.002    0.000    0.002    0.000 {built-in method math.floor}
+       10    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+

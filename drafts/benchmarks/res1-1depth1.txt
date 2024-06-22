@@ -1,0 +1,21 @@
+
+
+resolution: [1, 1]
+max_depth:1
+         13 function calls in 0.000 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 screen_partition.py:72(base_simulation)
+        1    0.000    0.000    0.000    0.000 screen_partition.py:179(recursive_simulation)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        1    0.000    0.000    0.000    0.000 screen_partition.py:220(simulate_grain)
+        1    0.000    0.000    0.000    0.000 screen_partition.py:73(<listcomp>)
+        2    0.000    0.000    0.000    0.000 screen_partition.py:114(is_leaf)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.any}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'reverse' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
