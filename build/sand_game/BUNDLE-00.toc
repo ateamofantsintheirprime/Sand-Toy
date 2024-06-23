@@ -1,0 +1,3 @@
+([('sand_game',
+   '/Users/blake/Documents/Programming/Sand-Toy/dist/sand_game',
+   'EXECUTABLE')],)
